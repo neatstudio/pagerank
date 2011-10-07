@@ -118,6 +118,7 @@ class PageRank {
         }
         if ($pr[0] == '<') {
             $this->setError('Parse error, found HTML.');
+            return;
         } else {
             $pr=substr(strrchr($pr, ':'), 1);
         }

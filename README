@@ -8,8 +8,6 @@ LICENSE: http://www.opensource.org/licenses/bsd-license.php The BSD License
 
 Get PageRank in your language:
 
-* pagerank2.class.php (PHP Class)
-* pagerank2.cli.php (PHP CLI)
 * pagerank2.php (PHP function)
 * pagerank2.py (Python)
 * pagerank.pl (Perl)
@@ -21,18 +19,4 @@ Get PageRank in your language:
 * pagerank.py (Legacy Python)
 * pagerank.c (Legacy C)
 
-* Also see: http://pagerank.phurix.net/
-
-UPDATE 06/10/2011:
-
-Google has changed their code for Google PageRank lookups.
-
-We've already updated all the code here with the new fix which is:
-
-REPLACE:
-	toolbarqueries.google.com/search
-
-WITH:
-	toolbarqueries.google.com/tbr
-
-* Read more: http://labs.phurix.net/posts/is-google-pagerank-dead
+* Also see: http://labs.phurix.net/articles/pagerank
